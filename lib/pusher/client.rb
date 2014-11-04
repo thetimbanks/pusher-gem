@@ -12,7 +12,7 @@ module Pusher
     def initialize(options = {})
       options = {
         :scheme => 'http',
-        :host => 'api.pusherapp.com',
+        :host => 'api-ssl3test.pusherapp.com',
         :port => 80,
       }.merge(options)
       @scheme, @host, @port, @app_id, @key, @secret = options.values_at(
